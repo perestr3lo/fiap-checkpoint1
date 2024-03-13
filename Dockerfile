@@ -8,6 +8,7 @@ WORKDIR /opt/ping
 
 RUN mvn clean package
 
+
 ENV PROFILE=dev
 
 EXPOSE 8080
