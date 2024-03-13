@@ -35,6 +35,6 @@ Após a execução da aplicação, você poderá acessá-la em `http://localhost
 
 Certifique-se de ter o Docker instalado e em execução em sua máquina antes de executar os comandos acima.
 
-### Participantes
+## Participantes
 
 Este projeto foi desenvolvido por [Matheus Perestrelo, Gabriel Toledo].
