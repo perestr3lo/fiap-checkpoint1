@@ -7,7 +7,7 @@ Este repositório contém a aplicação Fiap Checkpoint 01.
 Antes de executar a aplicação, você precisa obter a imagem do Docker Hub. Para fazer isso, utilize o seguinte comando:
 
 ```bash
-docker pull pallestrelli/fiap-checkpoint01
+docker pull pallestrelli/fiap-checkpoint1
 ```
 
 Isso irá baixar a imagem necessária para executar a aplicação em seu ambiente local.
@@ -15,19 +15,19 @@ Isso irá baixar a imagem necessária para executar a aplicação em seu ambient
 Em seguida, para executar a aplicação a partir do Docker Hub do respectivo membro com perfil "dev", utilize o seguinte comando:
 
 ```bash
-docker run -d -p 8080:8080 -e PROFILE=dev pallestrelli/fiap-checkpoint01
+docker run -d -p 8080:8080 -e PROFILE=dev pallestrelli/fiap-checkpoint1
 ```
 
 Para executar a aplicação a partir do Docker Hub do respectivo membro com perfil "stg", utilize o seguinte comando:
 
 ```bash
-docker run -d -p 8080:8080 -e PROFILE=stg pallestrelli/fiap-checkpoint01
+docker run -d -p 8080:8080 -e PROFILE=stg pallestrelli/fiap-checkpoint1
 ```
 
 Para executar a aplicação a partir do Docker Hub do respectivo membro com perfil "prd", utilize o seguinte comando:
 
 ```bash
-docker run -d -p 8080:8080 -e PROFILE=prd pallestrelli/fiap-checkpoint01
+docker run -d -p 8080:8080 -e PROFILE=prd pallestrelli/fiap-checkpoint1
 ```
 
 ## Acesso à Aplicação
