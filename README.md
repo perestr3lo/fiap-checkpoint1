@@ -30,6 +30,8 @@ Para executar a aplicação a partir do Docker Hub do respectivo membro com perf
 docker run -d -p 8080:8080 -e PROFILE=prd pallestrelli/fiap-checkpoint01
 ```
 
+## Acesso à Aplicação
+Após a execução da aplicação, você poderá acessá-la em `http://localhost:8080/ping`.
 
 Certifique-se de ter o Docker instalado e em execução em sua máquina antes de executar os comandos acima.
 
