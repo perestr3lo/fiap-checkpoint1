@@ -1,4 +1,4 @@
-## README.md
+## 🚀 README.md
 
 Este repositório contém a aplicação Fiap Checkpoint 01.
 
@@ -30,7 +30,6 @@ Para executar a aplicação a partir do Docker Hub do respectivo membro com perf
 docker run -d -p 8080:8080 -e PROFILE=prd pallestrelli/fiap-checkpoint01
 ```
 
-Substitua "pallestrelli" pelo nome do respectivo membro no Docker Hub.
 
 Certifique-se de ter o Docker instalado e em execução em sua máquina antes de executar os comandos acima.
 
