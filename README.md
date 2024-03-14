@@ -3,10 +3,10 @@
 Este repositório contém a aplicação Fiap Checkpoint 01.
 
 ### Prérequisitos
-Java 17+
-Docker
-Acesso a internet
-Acesso ao Docker Hub
+* Java 17+
+* Docker
+* Acesso a internet
+* Acesso ao Docker Hub
 
 
 ### Instruções de Uso
