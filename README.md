@@ -2,45 +2,42 @@
 
 Este repositório contém a aplicação Fiap Checkpoint 01.
 
-### Pré-requisitos
+### Prérequisitos
 * Java 17+
 * Docker
-* Acesso à internet
+* Acesso a internet
 * Acesso ao Docker Hub
 
 
 ### Instruções de Uso
 
-Antes de executar a aplicação, é necessário obter a imagem do Docker Hub. Para isso, utilize o seguinte comando:
+Antes de executar a aplicação, você precisa obter a imagem do Docker Hub. Para fazer isso, utilize o seguinte comando:
 
 ```bash
-docker pull pallestrelli/fiap-checkpoint2
+docker pull pallestrelli/fiap-checkpoint1
 ```
 
 Isso irá baixar a imagem necessária para executar a aplicação em seu ambiente local.
 
-Para executar com o perfil "dev", utilize o seguinte comando:
-
+Para executar com perfil "dev", utilize o seguinte comando:
 ```bash
-docker run -d -p 8080:8080 -e PROFILE=dev pallestrelli/fiap-checkpoint2
+docker run -d -p 8080:8080 -e PROFILE=dev pallestrelli/fiap-checkpoint1
 ```
 
-Para executar com o perfil "stg", utilize o seguinte comando:
+Para executar com perfil "stg", utilize o seguinte comando:
 
 ```bash
-docker compose up
+docker run -d -p 8080:8080 -e PROFILE=stg pallestrelli/fiap-checkpoint1
 ```
 
-## Acesso à Aplicação (Perfil Dev) 
-Após a execução da aplicação, você poderá acessá-la em `http://localhost:8080/h2-console`.
-Isso estará disponível apenas quando você estiver executando a aplicação com o perfil "dev".
+Para executar com perfil "prd", utilize o seguinte comando:
+```bash
+docker run -d -p 8080:8080 -e PROFILE=prd pallestrelli/fiap-checkpoint1
+```
 
-## Docker Compose && MySQL Tables (Perfil Stage)
-Para o perfil "stg", utilizamos o Docker Compose, dessa forma, tanto o MySQL quanto a nossa aplicação estarão conteinerizados e acessíveis entre elas.
-Com isso, as tabelas serão criadas dentro do seu banco de dados MySQL. 
+## Acesso à Aplicação
+Após a execução da aplicação, você poderá acessá-la em `http://localhost:8080/ping`.
 
-
-## 📢📢 ATENÇÃO!!
 Certifique-se de ter o Docker instalado e em execução em sua máquina antes de executar os comandos acima.
 
 ## Participantes
